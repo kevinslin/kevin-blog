@@ -7,9 +7,9 @@ created: 1614703323348
 tags: software
 ---
 
-Over the weekend I was sick with a fever and crashed on the couch with the dog and watched [[Avengers: Age of Ultron|dendron://notes/film.age-of-ultron]].
+Over the weekend I was sick with a fever and crashed on the couch with the dog and watched [[Avengers: Age of Ultron|dendron://kevin-public/film.age-of-ultron]].
 
-![[dendron://notes/film.age-of-ultron#synopsis]]
+![[dendron://kevin-public/film.age-of-ultron#synopsis]]
 
 In every Avengers movie, there comes a scene where all the Avengers focus their powers, thunder bolts, laser beams, etc on a single point (eg. the enemy) and manage to overpower them and save the day. Something similar happens in Ultron and it made me think of software development.
 
