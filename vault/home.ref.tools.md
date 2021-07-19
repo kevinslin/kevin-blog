@@ -2,7 +2,7 @@
 id: 7f197479-279e-4b1e-9edd-21bf2da423b0
 title: Tools
 desc: ''
-updated: 1621906207422
+updated: 1626540336204
 created: 1616285026176
 ---
 
@@ -38,3 +38,8 @@ A collection of some tools I use
 - Programs
   - Firefox & Chrome: Browsers
   - Launchy: Program launcher
+
+
+## CLI
+
+- ncdu: visualize du command
