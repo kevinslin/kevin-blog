@@ -2,7 +2,7 @@
 id: 07112ed8-c156-4c5c-911d-532845350777
 title: Everything I Learned from One Year of AWS Consulting
 desc: ''
-updated: 1608785876901
+updated: 1627079145995
 created: 1596416622319
 date: '2020-01-06'
 categories: aws
@@ -87,13 +87,13 @@ I ended up doing a series of jobs in healthcare, most notably architecting the e
 
 ### Serverless
 
-[Serverless](https://en.wikipedia.org/wiki/Serverless_computing) was not something I worked on directly at AWS but it was something I followed closely. Just like cloud computing, (I believe) the serverless paradigm will revolutionize how people build digital services. I spent part of last year both [writing](https://kevinslin.com/aws/lambda_cold_start_idle/) and [speaking](https://kevinslin.com/aws/building_sls_apps/) about serverless as well as [building](http://backuptable.com/) a few services on top of it.
+[Serverless](https://en.wikipedia.org/wiki/Serverless_computing) was not something I worked on directly at AWS but it was something I followed closely. Just like cloud computing, (I believe) the serverless paradigm will revolutionize how people build digital services. I spent part of last year both [[writing|blog.aws.2019-02-04-lambda_cold_start_idle]] and [[speaking|blog.aws.2019-02-28-building_sls_apps]] about serverless as well as [building](http://backuptable.com/) a few services on top of it.
 
 In my consulting, I find that the majority of startups have already adopted serverless or are moving towards it. More often than not, I find my job to be one of cautioning my clients against using serverless for applications it is not (yet) suited for. I'm excited to continue working with serverless and see this space grow in 2020.
 
 ### DevOps and CDK
 
-As someone used to writing/generating thousand-line json based cloudformation templates, the introduction of the [CDK](https://docs.aws.amazon.com/cdk/latest/guide/home.html) in 2018 was like finding an oasis after years wandering the desert. For the first time, [Infrastructure as Code](https://en.wikipedia.org/wiki/Infrastructure_as_code) had an implementation that was not a config or a config-like language but actual code. You can find my initial ~~evangelizing~~ writing about the CDK [here](https://kevinslin.com/AWS/cdk_all_the_things/).
+As someone used to writing/generating thousand-line json based cloudformation templates, the introduction of the [CDK](https://docs.aws.amazon.com/cdk/latest/guide/home.html) in 2018 was like finding an oasis after years wandering the desert. For the first time, [Infrastructure as Code](https://en.wikipedia.org/wiki/Infrastructure_as_code) had an implementation that was not a config or a config-like language but actual code. You can find my initial ~~evangelizing~~ writing about the CDK [[here|blog.aws.2019-06-12-cdk_all_the_things]].
 
 In my consulting, I use the CDK  to deploy infrastructure for my clients when at all possible, because it makes my job easier. What I didn't expect was for clients to reach out to me specifically because of CDK and wanting to integrate CDK into their production pipeline. I ended up publishing a [CDK best practices guide](https://github.com/kevinslin/open-cdk) based off my work and look forward to continued work in this space this year.
 
@@ -159,7 +159,7 @@ I left Amazon to control my own destiny. While agencies like Upwork and Toptal h
 
 Blogging, and more broadly speaking brand building, is a means to build trust. It’s a public inventory of prior thoughts and work. Of all the channels mentioned thus far, it is definitely the hardest to build and maintain but like the humble index fund, has the biggest payoffs over longer periods of time.
 
-In 2019, I published eight AWS-related posts on my blog. [Benchmarking Lambda’s Idle Timeout Before A Cold Start](https://kevinslin.com/aws/lambda_cold_start_idle/), [A Tale of Two Buckets: Investigating Multi-Account IAM Issues in S3 and CloudFront](https://kevinslin.com/aws/tale_of_two_buckets/), and [CDK All The Things: A Whirlwind Tour](https://kevinslin.com/aws/cdk_all_the_things/) were some of my more popular posts in 2019 and correspond to the themes I like to write about (serverless, security, and CDK).
+In 2019, I published eight AWS-related posts on my blog. [[Benchmarking Lambda's Idle Timeout Before A Cold Start|blog.aws.2019-02-04-lambda_cold_start_idle]], [[A Tale of Two Buckets|blog.aws.2019-07-17-tale_of_two_buckets]], and [[CDK All The Things: A Whirlwind Tour|blog.aws.2019-06-12-cdk_all_the_things]] were some of my more popular posts in 2019 and correspond to the themes I like to write about (serverless, security, and CDK).
 
 I have a love/hate relationship with writing — like running marathons, it's always something I'm glad I did in retrospect even when the process itself can be agonizing. While AWS lends itself to an endless amount of things to write about, translating my thoughts into words is a slog that takes me eight hours on average from beginning to end. Time is something I'm especially cognizant of since every minute spent writing is at the opportunity cost of paying work. Thus, I don't publish frequently and only when I feel I have something novel to say.
 

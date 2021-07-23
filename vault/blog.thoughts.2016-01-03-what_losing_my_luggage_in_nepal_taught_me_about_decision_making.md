@@ -2,7 +2,7 @@
 id: 8a21f9c0-c55d-4550-853a-3a4b04e8a5ea
 title: What Losing My Luggage in Nepal Taught Me About Decision Making
 desc: ''
-updated: 1596518032926
+updated: 1627079216570
 created: 1596518032926
 stub: false
 layout: single
@@ -109,8 +109,7 @@ sitting for the week afterwards. It was a miracle that we made it out of
 Houston.
 
 I used to justify my behavior by claiming to be a big picture sort of
-person. I didn't want to be caught in the details. As I mention in a [previous blog
-entry](http://kevinslin.com/blog/2013/12/10/noticing-the-trees-among-the-forest.html),
+person. I didn't want to be caught in the details. As I mention in a [[previous blog entry|blog.thoughts.2013-12-10-noticing-the-trees-among-the-forest]],
 I believed details are decoys to a meaningful life. I believed that as
 long as I had the right goals, I would be able to work out the details
 along the way.

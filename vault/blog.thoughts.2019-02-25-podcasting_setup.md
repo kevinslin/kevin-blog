@@ -2,7 +2,7 @@
 id: 1aa643ce-9471-4ce6-8148-06097ddfd892
 title: My Podcasting Setup
 desc: ''
-updated: 1608778992768
+updated: 1627080396921
 created: 1596518032932
 stub: false
 layout: single
@@ -28,7 +28,7 @@ In the course of running these podcasts, many listeners have reached out express
     - Nope. I do have experience interviewing people from doing journalism but no prior experience releasing audio content
 
 3.	Talk to me about your platform.
-    - Platform is based off [Middleman](/Users/kevinlin/code/projects/cloud.thence/blog), a static site generator. The site is a fork of the [turing-incomplete](https://github.com/turing-incomplete/turing-incomplete) podcast
+    - Platform is based off Middleman, a static site generator. The site is a fork of the [turing-incomplete](https://github.com/turing-incomplete/turing-incomplete) podcast
 
 4. Can people download episodes directly to their smartphone without being on the Amazon network? What apps does it use to play the episode on a smartphone/tablet? (This was relevant at Amazon because it was an internal podcast)
     - People cannot download episodes to their smartphones directly due to security rules about internal content.  As a workaround, I've created a  mailing list and send a highly compressed version of the podcast as an email attachment (Android/iOS native email is an approved app at Amazon). Since this is just an mp3, it will play on the default music player in a smartphone/tablet.

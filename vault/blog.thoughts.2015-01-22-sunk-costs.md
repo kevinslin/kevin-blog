@@ -2,7 +2,7 @@
 id: 7daa34b5-2323-4ec3-aafe-050684be3f2c
 title: Sunk Costs
 desc: ''
-updated: 1596518032925
+updated: 1627079186802
 created: 1596518032925
 stub: false
 tags:
@@ -13,7 +13,7 @@ layout: single
 date: '2015-01-22'
 ---
 
-When I started this entry, I intended to write an essay about keeping resolutions. After all, it was still close to new years and people did this sort of stuff at this time. After three weeks of procrastinating, I got around to writing the thing. The essay boiled down to focusing on the whys over the hows because given the latter, a sufficiently motivated person can always figure out the how. Essentially, it was another "know thyself" piece.  If this sounds familiar, it's because I also write about the topic  [here](http://www.kevinslin.com/blog/2013/08/26/uno.html), [here](http://www.kevinslin.com/blog/2013/09/03/i-have-a-plan.html) and [here](http://www.kevinslin.com/blog/2014/05/17/growing-up-and-doing-dishes.html).
+When I started this entry, I intended to write an essay about keeping resolutions. After all, it was still close to new years and people did this sort of stuff at this time. After three weeks of procrastinating, I got around to writing the thing. The essay boiled down to focusing on the whys over the hows because given the latter, a sufficiently motivated person can always figure out the how. Essentially, it was another "know thyself" piece.  If this sounds familiar, it's because I also write about the topic  [[here|blog.thoughts.2013-08-26-uno]], [[here|blog.thoughts.2013-09-03-i-have-a-plan]] and [[here|blog.thoughts.2014-05-17-growing-up-and-doing-dishes]].
 
 Though this new article was different, I realized that I was in danger of creating my personal redwall sequel (a fantasy series set in the realm of redwall inhabited by talking animals; in every book, an evil warlord takes over the land and the good animals must band together and go on a perilous quest to overthrow the warlod; this is exciting the first time but the author rehashes the theme for another dozen books).  Besides, it was a new year so it seemed fitting to explore a different topic.
 

@@ -2,7 +2,7 @@
 id: 137d3e99-3ab4-420b-bd14-3ded819e280f
 title: 'AWS re:Invent 2019 Recap'
 desc: ''
-updated: 1608778895548
+updated: 1627079081809
 created: 1596416622318
 stub: false
 date: '2019-12-12'
@@ -38,13 +38,13 @@ Making sense of all the things can be overwhelming but this article can help. We
 
 # Serverless
 
-Serverless was a big point of focus this re:Invent. The headline announcement was the launch of provisioned concurrency for Lambda. This was a big deal because [cold starts](https://kevinslin.com/aws/lambda_cold_start_idle/#cold-starts), extra latency incurred the first time a Lambda is invoked, is the most talked about issue with the platform. Provisioned concurrency mitigates this by allocating a pool of pre-initialized Lambdas. Interesting tidbit - Azure actually announced a [similar feature](https://azure.microsoft.com/en-us/blog/announcing-the-azure-functions-premium-plan-for-enterprise-serverless-workloads/) eight months prior.
+Serverless was a big point of focus this re:Invent. The headline announcement was the launch of provisioned concurrency for Lambda. This was a big deal because [[cold starts|blog.aws.2019-02-04-lambda_cold_start_idle]], extra latency incurred the first time a Lambda is invoked, is the most talked about issue with the platform. Provisioned concurrency mitigates this by allocating a pool of pre-initialized Lambdas. Interesting tidbit - Azure actually announced a [similar feature](https://azure.microsoft.com/en-us/blog/announcing-the-azure-functions-premium-plan-for-enterprise-serverless-workloads/) eight months prior.
 
 While Lambda stole the headlines, I predict that HTTP APIs on API Gateway will make the biggest practical difference for most users. With a 71% price reduction on API Gateway for its most common use case (API proxy), it eliminates the biggest obstacle to adopting this otherwise great service.
 
 - [Lambda Provisioned Concurrency](https://aws.amazon.com/about-aws/whats-new/2019/12/aws-lambda-announces-provisioned-concurrency/)
     - what: "prewarm" desired number of lambda functions
-    - why: eliminate [lambda cold start](https://kevinslin.com/aws/lambda_cold_start_idle/#cold-starts)
+    - why: eliminate [[lambda cold start|blog.aws.2019-02-04-lambda_cold_start_idle]]
     - use case: API servers, enterprise applications, when using .NET or Java in interactive applications
     - caveats: eats into total lambda concurrency limit, pay for lambda even if not invoking it, changes lambda initialization behavior, must be provisioned on explicit lambda version/alias (can't be $LATEST alias)
 - [HTTP APIs on API Gateway (preview)](https://aws.amazon.com/about-aws/whats-new/2019/12/amazon-api-gateway-offers-faster-cheaper-simpler-apis-using-http-apis-preview/)
@@ -75,7 +75,7 @@ While Lambda stole the headlines, I predict that HTTP APIs on API Gateway will m
 
 # Security
 
-Security has always been a focus for AWS and this continues to be the case this re:Invent. IAM Access Analyzer was my favorite announcement for re:Invent. It uses [automated reasoning](https://aws.amazon.com/security/provable-security/) to continuously monitor IAM policies for changes. IAM is extremely hard to get right and is a topic I've written about [extensively in the past](https://kevinslin.com/aws/tale_of_two_buckets/) so anything to make the process easier is a big win for customers. And the cherry on top - it is completely free to use.
+Security has always been a focus for AWS and this continues to be the case this re:Invent. IAM Access Analyzer was my favorite announcement for re:Invent. It uses [automated reasoning](https://aws.amazon.com/security/provable-security/) to continuously monitor IAM policies for changes. IAM is extremely hard to get right and is a topic I've written about [[extensively in the past|blog.aws.2019-07-17-tale_of_two_buckets]] so anything to make the process easier is a big win for customers. And the cherry on top - it is completely free to use.
 
 - [IAM Access Analyzer](https://aws.amazon.com/about-aws/whats-new/2019/12/introducing-aws-identity-and-access-management-access-analyzer/)
     - what: continuously monitor IAM policy for changes
@@ -86,7 +86,7 @@ Security has always been a focus for AWS and this continues to be the case this 
     - what: create access points with custom name, permissions, and endpoints that restrict access to a given S3 bucket
     - why: better access control for shared data sets
     - use case: you have a shared data set and want to give different parties different levels of access to the data
-    - caveats: there are now at least [9 different ways](https://kevinslin.com/aws/tale_of_two_buckets/#problem) of restricting access to a bucket...
+    - caveats: there are now at least [[9 different ways|blog.aws.2019-07-17-tale_of_two_buckets#problem]] of restricting access to a bucket...
 - [Amazon Detective (preview)](https://aws.amazon.com/about-aws/whats-new/2019/12/introducing-amazon-detective/)
     - what: help customers analyze, investigate and identify root cause of security issues
     - why: security is hard, security in the agile cloud era is even harder because of the number of event sources, moving parts and continuous updates

@@ -2,7 +2,7 @@
 id: a05c5571-504f-4581-a5fe-50589c0f2bd4
 title: '2020-05-10: Weekly Review'
 desc: ''
-updated: 1608779006760
+updated: 1627079234773
 created: 1596518032933
 stub: false
 layout: single
@@ -42,7 +42,7 @@ Most of the articles this week are on the topic of structured knowledge manageme
     - [John Locke’s Method for Common-Place Books (1685) – The Public Domain Review](https://www.notion.so/kevinslin/John-Locke-s-Method-for-Common-Place-Books-1685-The-Public-Domain-Review-77c03aeef67b4be294c68f13ae799fc8)
       > In general, the commonplace book would result in a wonderfully tangled mixture of reading and writing, where disparate ideas could be fruitfully thrown together onto the same pages, fixed together only by a formal method (and of course similar word roots).
   - Notes
-      - Structuring information in a way that is easy to capture, reference and make connections from is hard. With physical constraints (eg. books and paper), people had to get creative to index and compress all that they cared about. In today's world of digital abundance, both from an information and tools perspective, people seem to have all but given up on trying to "manage information". Linear newsfeeds are great for dopamine hits and scrolling addiction but are hard to make use of when the moment has passed. But it doesn't [need to be this way](https://kevinslin.com/organizing/its_not_you_its_your_knowledge_base/).
+      - Structuring information in a way that is easy to capture, reference and make connections from is hard. With physical constraints (eg. books and paper), people had to get creative to index and compress all that they cared about. In today's world of digital abundance, both from an information and tools perspective, people seem to have all but given up on trying to "manage information". Linear newsfeeds are great for dopamine hits and scrolling addiction but are hard to make use of when the moment has passed. But it doesn't [[need to be this way|blog.pkm.2020-03-30-its_not_you_its_your_knowledge_base]].
 
 - When the status quo is "good enough"
   - Articles

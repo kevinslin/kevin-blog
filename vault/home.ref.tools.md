@@ -2,7 +2,7 @@
 id: 7f197479-279e-4b1e-9edd-21bf2da423b0
 title: Tools
 desc: ''
-updated: 1626540336204
+updated: 1627079245422
 created: 1616285026176
 ---
 
@@ -13,7 +13,7 @@ A collection of some tools I use
 - evernote: web clipper
 - google keep: mobile notes writer
 - ia writer/git journal: private notes mobile reader
-- published dendron notes via safari (eg. kevinslin.com): public notes, mobile reader
+- published dendron notes via safari : public notes, mobile reader
 - airtable: tracking finances
 - alfred: app launcher
 

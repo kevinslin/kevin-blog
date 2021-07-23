@@ -2,7 +2,7 @@
 id: f2542b0c-5cbd-49b9-84d8-151ccab99dea
 title: A Tale of Two Buckets
 desc: ''
-updated: 1608779281921
+updated: 1627078981354
 created: 1596416622316
 stub: false
 layout: single
@@ -388,4 +388,4 @@ Action items for next time:
 
 ## Parting Thoughts
 
-Mistakes suck but they are also the most effective way (I've found) to learn and improve. Even better if you can learn from someone else's mistakes. If you would like to stay up to date on my mistakes, thoughts and other AWS related topics, feel free to subscribe to this blog via [RSS](https://kevinslin.com/feed.xml), [Feedly](https://feedly.com/i/subscription/feed/https://kevinslin.com/feed/aws.xml), or [mailing list](https://mailchi.mp/e25c38bdb8d2/thence). There is absolutely no spam, just 1-2 articles a month, delivered to your inbox eventually consistent. That's all for now, and until next time, may you be well and your buckets secure.
+Mistakes suck but they are also the most effective way (I've found) to learn and improve. Even better if you can learn from someone else's mistakes. If you would like to stay up to date on my mistakes, thoughts and other AWS related topics, feel free to subscribe to this blog via [mailing list](https://mailchi.mp/e25c38bdb8d2/thence). There is absolutely no spam, just 1-2 articles a month, delivered to your inbox eventually consistent. That's all for now, and until next time, may you be well and your buckets secure.
