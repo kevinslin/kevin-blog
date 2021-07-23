@@ -6,4 +6,4 @@ updated: 1596949191324
 created: 1596949191324
 stub: false
 ---
-![](/assets/images/comics/Paper.Comics.12.png)
+![](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/comics/Paper.Comics.12.png)

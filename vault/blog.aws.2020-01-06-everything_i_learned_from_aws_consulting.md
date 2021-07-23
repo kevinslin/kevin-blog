@@ -18,7 +18,7 @@ excerpt: Thoughts and learnings from 1 year as an AWS consultant
 layout: single
 ---
 
-!["Hindsignt of a year of AWS consulting"](/assets/images/20200106-splash.jpg)
+!["Hindsignt of a year of AWS consulting"](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/20200106-splash.jpg)
 
 They say that hindsight is 2020 - which makes the start of this year the perfect time to reflect on the last.
 

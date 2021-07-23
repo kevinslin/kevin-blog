@@ -24,7 +24,7 @@ excerpt: 'Everything you need to know about re:Invent 2019'
 layout: single
 ---
 
-!["AWS re:Invent 2019 Las Vegas"](/assets/images/20191211-las_vegas.jpg)
+!["AWS re:Invent 2019 Las Vegas"](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/20191211-las_vegas.jpg)
 
 Last week was [re:Invent](https://reinvent.awsevents.com/). This is the annual AWS developer conference that takes place in Las Vegas at the end of the year. Think of it as Christmas, Thanksgiving and New Years all rolled into one.
 
@@ -32,7 +32,7 @@ During re:Invent, AWS unleashes a year's worth of shiny new things. These come i
 
 According to my AWS newsfeed, there were at least eighty such things this year.
 
-!["AWS Recent Announcements"](/assets/images/20191211-recent_announcements.jpg)
+!["AWS Recent Announcements"](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/20191211-recent_announcements.jpg)
 
 Making sense of all the things can be overwhelming but this article can help. We will go over some of the more significant announcements and detail what the things are, why the things might be useful, and what use cases and caveats to watch out for when using the things.
 

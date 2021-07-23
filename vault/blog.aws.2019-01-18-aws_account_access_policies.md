@@ -23,7 +23,7 @@ excerpt: >-
 layout: single
 ---
 
-!["AWS Access Control represented by lock picture"](/assets/images/20190121-access_lock.jpg)
+!["AWS Access Control represented by lock picture"](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/20190121-access_lock.jpg)
 
 Whenever I'm working with a new client, one of the first things we talk about is access. Most clients have the majority of their business running on top of AWS and don't feel comfortable (nor would I recommend) that they give a consultant complete access on day one. That being said, said consultant does need minimal access in order to advise, whether this is on security, architecture, cost, or any number of reasons. This is when we turn to IAM.
 
@@ -66,33 +66,33 @@ Now that we've gone over a few managed policies, below are instructions on how t
 ## Creating an AWS User
 - Navigate to the user tab under IAM by going to [https://console.aws.amazon.com/iam/home#/users](https://console.aws.amazon.com/iam/home#/users) and click `Add User`
 
-!["Add User to IAM console"](/assets/images/20190121-aws_audit-1-add_user.jpg )
+!["Add User to IAM console"](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/20190121-aws_audit-1-add_user.jpg )
 
 - Set a name for the user and enable both Programatic and Console Access. Then click to `Next: Permissions`
 
-!["Enable AWS console access"](/assets/images/20190121-aws_audit-2-user_details.jpg )
+!["Enable AWS console access"](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/20190121-aws_audit-2-user_details.jpg )
 
 - Click `Attach existing policy directly` and look for `ViewOnlyAccessPolicy`. Select the policy before clicking `Next: Tags`
 
-!["Attach existing policies directly"](/assets/images/20190121-aws_audit-3-add_existing_policy.jpg )
-!["ViewOnlyAccess Policy"](/assets/images/20190121-aws_audit-4-add_policy.jpg )
+!["Attach existing policies directly"](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/20190121-aws_audit-3-add_existing_policy.jpg )
+!["ViewOnlyAccess Policy"](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/20190121-aws_audit-4-add_policy.jpg )
 
 - Optionally, add a tag to the project for tracking purposes. Click `Next ` when done.
 
-!["Add IAM Tags"](/assets/images/20190121-aws_audit-5-optional_add_tag.jpg )
+!["Add IAM Tags"](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/20190121-aws_audit-5-optional_add_tag.jpg )
 
 - Make sure that everything looks right and click `Create User`
-!["Review managed policies"](/assets/images/20190121-aws_audit-6-create_user.jpg )
+!["Review managed policies"](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/20190121-aws_audit-6-create_user.jpg )
 
 - Download the csv and send an email to the person you are granting access to with the IAM login link. Send the csv with the credentials along with the email or separately in a different channel of your choice.
 
-![](/assets/images/20190121-aws_audit-7-download_email.jpg ) %}
-!["Access Key Id, Secret Access Key and Password screen"](/assets/images/20190121-aws_audit-8-email.jpg )
+![](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/20190121-aws_audit-7-download_email.jpg ) %}
+!["Access Key Id, Secret Access Key and Password screen"](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/20190121-aws_audit-8-email.jpg )
 
 ## Deleting an AWS User
 - After the audit is done, its important to delete the credentials to limit further access (optionally, you can also choose to disable the keys and password but this guide will cover deleting the credential). To do so, go back to the IAM user page [here](https://console.aws.amazon.com/iam/home#/users). Select the user you wish to delete and click `Delete User`. Click `Yes` on the ensuing confirmation box.
 
-!["Send email with Sign-in URL to Audit Only User"](/assets/images/20190121-aws_audit-9-delete_user.jpg )
+!["Send email with Sign-in URL to Audit Only User"](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/20190121-aws_audit-9-delete_user.jpg )
 
 And you're done. Hope this article was informative and feel free to reach out or comment if you have any questions or feedback for this post.
 

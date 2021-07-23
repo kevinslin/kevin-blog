@@ -14,7 +14,7 @@ tags:
 excerpt: What I mean when I talk about Hierarchy
 ---
 
-![](/assets/images/2020-10-25-16-54-13.png)
+![](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/2020-10-25-16-54-13.png)
 
 In the summer of 2020, I launched [Dendron](https://dendron.so) - a note-taking tool that helps you manage information using flexible hierarchies. 
 

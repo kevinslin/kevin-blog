@@ -17,7 +17,7 @@ tags:
 excerpt: Thoughts on organizing and finding information in a digital age
 ---
 
-!["Human with information overload"](/assets/images/1.jpg)
+!["Human with information overload"](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/1.jpg)
 
 ## Information Overload
 
@@ -25,17 +25,17 @@ Have you ever struggled to find information inside your knowledge base or note-t
 
 If so, this is likely because of information overload - when every human being has access to the sum of all human knowledge, finding any specific bit of it becomes a daunting task.
 
-![Human running away from too much information](/assets/images/2.jpg)
+![Human running away from too much information](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/2.jpg)
 
 For the modern knowledge worker, the amount of information we need to track far exceeds what can actually fit in our heads. As a consequence, we externalize that information using tools like Evernote, Notion, and Confluence.
 
 ## Existing Tools
 
-![Knowledge worker using Evernote, notion, and confluence to organize information](/assets/images/3b.jpg)
+![Knowledge worker using Evernote, notion, and confluence to organize information](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/3b.jpg)
 
 The problem with these tools is that the more information we put in, the harder it becomes to get it back out. This is because existing tools lack the capability of organizing large amounts of information and why most of us rely on search to find what we need.
 
-![Knowledge worker organizing information using notion, Evernote, and confluence](/assets/images/4.jpg)
+![Knowledge worker organizing information using notion, Evernote, and confluence](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/4.jpg)
 
 ## Search
 
@@ -54,7 +54,7 @@ Here, a keyword is defined as any term that has ever been or might ever be used 
 
 The odds of both things happening, especially over long periods, are astronomical. It is like trying to find a star in the night sky by just its description.
 
-![Knowledge worker finding information using keywords](/assets/images/4b.jpg)
+![Knowledge worker finding information using keywords](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/4b.jpg)
 
 The reason keywords don’t work is because they require people to do something that the human brain is not good at - working with and remembering an unbounded number of things.
 
@@ -68,7 +68,7 @@ The most common way that people organize information is to group related concept
 
 The psychological term for this is called [chunking](<https://en.wikipedia.org/wiki/Chunking_(psychology)>) and it is something that the brain is naturally good at. Even unconsciously, we will create associations between things. This process is so powerful that we now have [unconcious bias training](https://en.wikipedia.org/wiki/Unconscious_bias_training) to **train ourselves not to do this** when it results in discriminatory behavior.
 
-![Knowledge worker chunking information into topics](/assets/images/5b.jpg)
+![Knowledge worker chunking information into topics](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/5b.jpg)
 
 ## Chunking
 
@@ -79,7 +79,7 @@ If you try to group all the information into chunks, one of two things will happ
 1. You have too many chunks and keeping track of chunks becomes overwhelming
 2. You have a few chunks with too many things in them which causes you to lose the benefits of chunking in the first place
 
-![Knowledge worker trying to find information but being overwhelmed with chunks](/assets/images/6.jpg)
+![Knowledge worker trying to find information but being overwhelmed with chunks](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/6.jpg)
 
 ## Indirection
 
@@ -92,7 +92,7 @@ When the complexity of information becomes too much at one level, we simplify it
 
 For information, this means creating hierarchies to group related chunks. We can keep doing this until the number of chunks at any given level of the hierarchy becomes manageable. At this point, our data starts to take the shape of a tree.
 
-![Knowledge worker modeling information as a tree](/assets/images/7.jpg)
+![Knowledge worker modeling information as a tree](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/7.jpg)
 
 ## Trees
 
@@ -104,16 +104,16 @@ Finding information in a tree can be done in [logarithmic time](https://en.wikip
 
 Time for a quick recap - the human brain is not good at remembering an endless amount of things. This is why keywords fail. We, therefore, chunk related concepts into topics. This too runs into problems when we end up with too many chunks. The solution to this is to group related chunks using trees.
 
-![Recap of knowledge worker putting together a tree - Part I](/assets/images/7a.jpg)
-![Recap of knowledge worker putting together a tree - Part II](/assets/images/7b.jpg)
+![Recap of knowledge worker putting together a tree - Part I](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/7a.jpg)
+![Recap of knowledge worker putting together a tree - Part II](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/7b.jpg)
 
 When the number of chunks at any given level exceeds what is easy for us to remember, we can apply _another level of indirection_ by grouping related chunks and pushing it further down the tree.
 
-![Knowledge tree with a layer of indirection applied](/assets/images/9.jpg)
+![Knowledge tree with a layer of indirection applied](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/9.jpg)
 
 This whole process is recursive - you can apply it at any level of the tree as many as times as you need to make the information comprehensible.
 
-![Knowledge tree with multiple layers](/assets/images/10.jpg)
+![Knowledge tree with multiple layers](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/10.jpg)
 
 This ensures that the number of chunks you need to track at any given level stays comprehensible no matter how much information you have.
 
@@ -131,19 +131,19 @@ Today’s knowledge bases support the concept of trees through the use of folder
 
 There's overhead involved in creating trees. Even simple domains can have dozens of branches. We have enough trouble simply tagging our data, asking us to re-create entire hierarchies for any number of things is simply too much work.
 
-![Replicating knowledge tree](/assets/images/11c.jpg)
+![Replicating knowledge tree](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/11c.jpg)
 
 ## Manageability
 
 A tree-based organization structure tends to be the reflection of our mental model of a particular domain. The thing about mental models is that they change. Either the underlying domain changes or our understanding of it changes. Either way, the structure of the tree changes. But when it does, making sure all our existing trees reflect that change is not easily done with current tools.
 
-![Updating knowledge tree](/assets/images/12.jpg)
+![Updating knowledge tree](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/12.jpg)
 
 ## Usability
 
 Even if we organize data as trees, existing tools have little to no support helping us find data using hierarchies. We end up having to manually click through our trees or performing keyword searches that ignore our hierarchies completely.
 
-![Using knowledge tree](/assets/images/13.jpg)
+![Using knowledge tree](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/13.jpg)
 
 ## Searching for an Answer
 

@@ -15,7 +15,7 @@ excerpt: 'Nature vs Nurture, The Sum of Parts, and Character in Crisis'
 classes: wide
 ---
 
-!["Nature vs Nurture"](/assets/images/conv-ilana-20200531.png)
+!["Nature vs Nurture"](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/conv-ilana-20200531.png)
 
 World events this week made me think about crisis and how people respond to them. That might come across in the review this week. 
 

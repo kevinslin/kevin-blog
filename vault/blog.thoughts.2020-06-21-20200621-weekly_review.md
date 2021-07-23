@@ -17,7 +17,7 @@ excerpt: 'Opinions and Facts, Power and Accountability, Wonder and Awe'
 classes: wide
 ---
 
-!["Weekly Review"](/assets/images/conv-weekly_review.jpg)
+!["Weekly Review"](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/conv-weekly_review.jpg)
 
 No review last week due to mini vacation to crater lake. This week is more politics heavy then usual. 
 

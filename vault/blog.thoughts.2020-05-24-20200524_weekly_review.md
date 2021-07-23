@@ -17,7 +17,7 @@ excerpt: 'Cognitive Technology, Economics of Open Source, and the State of Podca
 classes: wide
 ---
 
-!["Subway Map as cognitive technology"](/assets/images/conv-ilana-20200524.png)
+!["Subway Map as cognitive technology"](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/conv-ilana-20200524.png)
 
 # Preamble
 

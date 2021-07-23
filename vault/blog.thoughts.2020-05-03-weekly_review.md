@@ -16,7 +16,7 @@ toc_sticky: true
 excerpt: Highlights of things I've been thinking and working on over the week
 ---
 
-!["Weekly Review"](/assets/images/conv-weekly_review.jpg)
+!["Weekly Review"](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/conv-weekly_review.jpg)
 
 ## Preamble
 

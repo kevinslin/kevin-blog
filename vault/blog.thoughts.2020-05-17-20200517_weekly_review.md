@@ -17,7 +17,7 @@ excerpt: 'Second-system effect, Tools of Thought, Twitter Lists'
 classes: wide
 ---
 
-!["Second System"](/assets/images/conv-ss1.png)
+!["Second System"](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/conv-ss1.png)
 
 # Preamble
 
@@ -44,7 +44,7 @@ Been working with the Stanford lab as their AWS specialist to help them ship the
     - The second system effect could be used to describe most large software systems I've ever worked with. While this probably happens across verticals, I think it's particularly egregious in software because it's so *simple* to create new code (as opposed to building a bridge). I used to run a podcast at Amazon where I interviewed our principal engineers and to the individual, they all espoused **simplicity** as a guiding principle. This is something I'm trying to keep in mind as I'm in the process of re-writing [Dendron...](http://dendron.so/)
     - My wife drew a comic to illustrate the second system effect for when I build our dog a new house
 
-!["Second System"](/assets/images/conv-second_system.png)
+!["Second System"](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/conv-second_system.png)
 
   - Tools For Thought
     - Articles

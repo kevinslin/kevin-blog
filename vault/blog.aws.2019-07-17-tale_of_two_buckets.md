@@ -30,7 +30,7 @@ excerpt: >-
   find the truth. A tale of intrigue, identity and access.
 ---
 
-!["Multi-Account S3 Buckets Representation"](/assets/images/20190724-tale_of_two_buckets/buckets.jpg)
+!["Multi-Account S3 Buckets Representation"](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/20190724-tale_of_two_buckets/buckets.jpg)
 
 
 You could be excused if you were confused from reading the title. AWS is many things but simple is not the first (or second) way most would describe it (even for services that have *"simple"* in the name). This is especially true when you throw multiple AWS accounts into the mix. In the past, doing anything multi account on AWS involved doubling your setup time and hoping that there wouldn't be some IAM quirk or service limit that would force you to re-architect. This has gotten much better over time, and services like [AWS Organizations](https://aws.amazon.com/organizations/) and [AWS Control Tower](https://aws.amazon.com/controltower/) paired with features such as [Cloudformation Stack Sets](https://aws.amazon.com/about-aws/whats-new/2017/07/aws-cloudformation-supports-multiple-account-and-region-provisioning-with-stackset/) and [CloudTrail support for organizations](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/creating-trail-organization.html) have made it drastically easier to do multi-account buildouts. That being said, there are many edges left that can still draw blood.
@@ -43,7 +43,7 @@ Our story begins with a [consulting client](https://thence.io)  - we will refer 
 
 While it's not listed anywhere in HIPAA that you need a multi-account AWS setup for your service, requirements like [least privilege](https://en.wikipedia.org/wiki/Principle_of_least_privilege) coupled with the inherent complexity of [IAM](https://start.jcolemorrison.com/aws-iam-policies-in-a-nutshell/) means that going multi-account is a practical necessity. This can be a good thing because it can actually result in greater agility for the organization. With multiple accounts, we can completely lock down `prod` accounts which contains PHI, simplifying compliance,  and grant developers full access to `dev` accounts which do not, increasing velocity. This was one of my initial recommendations for HealthCorp and led to the following multi-account pipeline for HealthCorp's client facing webapp.
 
-![Code Pipeline with CodeBuild, Lambda, S3 and CloudFront](/assets/images/20190724-tale_of_two_buckets/pipeline.png)
+![Code Pipeline with CodeBuild, Lambda, S3 and CloudFront](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/20190724-tale_of_two_buckets/pipeline.png)
 
 We setup a pipeline in a central `tools` account using [CodePipeline](https://aws.amazon.com/codepipeline/), an AWS service that makes it easy to do CI/CD on AWS. CodePipeline consists of stages and actions. A stage consists of one or more actions. Depending on the type of action, an action can take an input artifact and/or export an output artifact. Artifacts are uploaded to an artifact bucket which is configured when first creating the pipeline. For more information, you can read the [official docs](https://docs.aws.amazon.com/codepipeline/latest/userguide/concepts.html).
 
@@ -55,7 +55,7 @@ A short while after setting up the pipeline, my client requested we block public
 
 One common gotcha with the approach is that restricting access to CloudFront did not necessarily restrict access to S3 - if the objects were uploaded with public read ACLs (which was the case here), then customers/crawlers/bots/spies could bypass CloudFront and still access the S3 bucket directly.
 
-![User bypassing lambda@edge and accessing S3 bucket directly](/assets/images/20190724-tale_of_two_buckets/auth_bypass.png)
+![User bypassing lambda@edge and accessing S3 bucket directly](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/20190724-tale_of_two_buckets/auth_bypass.png)
 
 In order to lock down S3, we would need to lock down the S3 bucket to deny access to all except CloudFront.  This meant doing the following steps:
 
@@ -69,7 +69,7 @@ After executing each of the aforementioned steps and confirming the changes in `
 
 The next day, I got a ping from my client. They were unable to access the HealthCorp webapp. I fired up my browser and was able to reproduce the issue by navigating to the home page.
 
-![S3 Bucket access denied](/assets/images/20190724-tale_of_two_buckets/s3_403.jpg)
+![S3 Bucket access denied](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/20190724-tale_of_two_buckets/s3_403.jpg)
 
 Talking it over with my client, we agreed to rollback the changes in `dev` to unblock the devs. We did this by turning off the `block public access` controls on the bucket which meant objects within were publicly readable by both CloudFront (good) and the rest of the world (bad). Since the bucket was originally public and only contained prototype landing page components, this didn't count among the [worst S3 security leaks](https://businessinsights.bitdefender.com/worst-amazon-breaches) of all time. That being said, this was still a bad situation and one I wanted to remediate as soon as possible.
 
@@ -78,7 +78,7 @@ Talking it over with my client, we agreed to rollback the changes in `dev` to un
 
 First order of business, how did we miss this? I remembered checking the site the previous day after blocking public access and doing a full CloudFront [cache invalidation](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Invalidation.html). One possible explanation was that the browser cache was not disabled and that I was looking at a cached version of the site.
 
-![Chrome Cache](/assets/images/20190724-tale_of_two_buckets/chrome_cache.jpg)
+![Chrome Cache](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/20190724-tale_of_two_buckets/chrome_cache.jpg)
 <small>Disabling cache in Chrome</small>
 
 To confirm, I re-enabled `block public access`, invalidated CloudFront, disabled the browser cache, and was able to trigger an immediate 403. This was a good first step because it meant that the change to lock down the S3 bucket was most likely the cause of the current issue.
@@ -92,11 +92,11 @@ To investigate the root cause, I then made a prioritized list of services to inv
 
 ### S3
 
-![S3 Bucket](/assets/images/20190724-tale_of_two_buckets/s3.png)
+![S3 Bucket](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/20190724-tale_of_two_buckets/s3.png)
 
 S3 is one of the oldest AWS services, used in everything from serving static websites to storing satellite data (and even as a [file system](https://github.com/s3fs-fuse/s3fs-fuse)). The security model had to evolve to handle anything that the internet could throw at it and as a consequence, it has the most permission mechanisms of any AWS service.
 
-![S3 Permissions](/assets/images/20190724-tale_of_two_buckets/s3_permissions.jpg)
+![S3 Permissions](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/20190724-tale_of_two_buckets/s3_permissions.jpg)
 <small> S3 permission mechanisms </small>
 
 1. [Block Public Access](https://docs.aws.amazon.com/AmazonS3/latest/dev/access-control-block-public-access.html), as the name implies, denies public access to a bucket by both preventing new ACLs and Bucket Policies that grant public access as well as override existing ACL's and Bucket Policies that grant public access. This was announced in [late 2018](https://aws.amazon.com/blogs/aws/amazon-s3-block-public-access-another-layer-of-protection-for-your-accounts-and-buckets/) and enabled in all new S3 buckets by default. In our case, this was initially disabled to allow uploading public objects but then enabled to block public access.
@@ -136,7 +136,7 @@ If you look closely, you'll find the only meaningful difference between the two 
 
 ### CloudFront
 
-![CloudFront](/assets/images/20190724-tale_of_two_buckets/cloudfront.png)
+![CloudFront](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/20190724-tale_of_two_buckets/cloudfront.png)
 
 An area where I'd seen issues with CloudFront in this sort of setup is misconfiguration with the OAI. An OAI is a special CloudFront user that can be associated with S3 origins to restrict access.
 
@@ -214,7 +214,7 @@ date      	 time     	 location 	 bytes 	 request_ip   	 method 	 host          
 
 ### Lambda@Edge
 
-![Lambda](/assets/images/20190724-tale_of_two_buckets/lambda.png)
+![Lambda](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/20190724-tale_of_two_buckets/lambda.png)
 
 Lambda@Edge is a Lambda that is triggered when a user sends a request to a CloudFront distribution. Since it can modify the request, errors here can lead to the request being invalid. Lambda@Edge can be triggered at the following points in a request lifecycle:
 
@@ -227,7 +227,7 @@ For our use case of doing basic auth, we used `Viewer Request` which means that 
 
 ### AWS Organizations
 
-![AWS Organization](/assets/images/20190724-tale_of_two_buckets/organization.png)
+![AWS Organization](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/20190724-tale_of_two_buckets/organization.png)
 
 AWS Organizations is used for the central management, billing and governance of multiple AWS accounts. For governance, Organizations uses [Service Control Policies](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scp.html) (SCP) to restrict access in member accounts. SCPs are like IAM rules but apply to AWS Accounts and can only `Deny` access. That means that you can have a rule like the following which would deny accounts the ability to stop cloudtrail logging, even if they had `AdminFullAccess` within the account.
 
@@ -281,7 +281,7 @@ A great engineer that I knew at AWS once said:
 
 > When you see hoof prints, think horses not zebras.
 
-![Horse](/assets/images/20190724-tale_of_two_buckets/conv-horse.jpg)
+![Horse](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/20190724-tale_of_two_buckets/conv-horse.jpg)
 
 This referred to this idea that when you are not sure whats wrong but see evidence that could imply multiple failure modes, go for the most obvious one.
 

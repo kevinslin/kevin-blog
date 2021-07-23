@@ -20,7 +20,7 @@ excerpt: >-
 layout: single
 ---
 
-!["AWS Cloud Development Kit Representation"](/assets/images/20190612-header-conv.jpeg)
+!["AWS Cloud Development Kit Representation"](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/20190612-header-conv.jpeg)
 
 Ever wanted to provision AWS infrastructure with the expressivity of python, the type safety of java and the declarative nuance of CloudFormation?
 

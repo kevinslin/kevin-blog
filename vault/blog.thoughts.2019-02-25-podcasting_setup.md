@@ -15,7 +15,7 @@ tags:
   - howto
 excerpt: My setup and process for podcasting
 ---
-!["Podcasting Setup"](/assets/images/20190225-podcasts.jpg)
+!["Podcasting Setup"](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/20190225-podcasts.jpg)
 
 I've been doing podcasting for a little over three years now. Two and a half years running an internal podcast at Amazon and half a year of running [FolkStories](https://folkstories.org), the public version of what I was doing internally (long form conversations with great people).
 

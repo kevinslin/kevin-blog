@@ -17,7 +17,7 @@ excerpt: 'Structured Knowledge Management, Retrospectives and Using (aw)less'
 ---
 
 
-!["Weekly Review"](/assets/images/conv-weekly_review.jpg)
+!["Weekly Review"](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/conv-weekly_review.jpg)
 
 # Preamble
 

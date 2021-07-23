@@ -23,7 +23,7 @@ excerpt: >-
 layout: single
 ---
 
-!["Reserved instance representation"](/assets/images/20190312/header.jpeg)
+!["Reserved instance representation"](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/20190312/header.jpeg)
 
 EC2 Reserved Instances (RIs) provide steep discounts (up to 75%) to the hourly cost of running an EC2 instance in exchange for an upfront commitment to using a particular instance configuration for either a 1 year or 3 year term. In addition to the billing discount, certain RIs also offer capacity reservations which means EC2 will set aside capacity for your indicated instance configuration. Best of all, RI discounts are automatically applied to existing instances which means you can get cost savings without having to make changes to your infrastructure.
 
@@ -39,7 +39,7 @@ If you want to skip ahead to the conclusion, you can do so by jumping to the [ta
 
 ## RIs = Billing
 
-![EC2 Bill representation](/assets/images/20190312/conv-bill.jpeg)
+![EC2 Bill representation](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/20190312/conv-bill.jpeg)
 
 The first thing to understand about RIs is that despite the name, they aren't actual instances (well, except for scheduled instances but like 99% of AWS customers, we're going to pretend they don't exist for now). Instead, RIs are a billing concept. When you purchase an RI, AWS will automatically apply a discount to your EC2 bill for an instance that matches the configuration of your RI.
 
@@ -131,13 +131,13 @@ We will discuss each in depth.
 
 ### Standard RI
 
-![Standard RI Representation](/assets/images/20190312/conv-standard.jpeg)
+![Standard RI Representation](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/20190312/conv-standard.jpeg)
 
 Standard RIs are the most restrictive RI category but offer the biggest savings. When you buy a standard RI of a particular instance family (eg. t3.\*), you are locked into that instance family and the instance attributes specified at time of purchase. If AWS releases t4's or your workload shifts and you find that you need c5's, you have to purchase new RIs.
 
 ### Convertible RI
 
-![Convertible RI Representation](/assets/images/20190312/conv-convertible.jpeg)
+![Convertible RI Representation](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/20190312/conv-convertible.jpeg)
 
 Convertible RI address the problem of RI lockin by allowing you to trade in your existing Convertible RI for another one of equal or greater value. If the value of the new reservation has a greater upfront fee, you pay a one time true-up charge to cover the difference.
 
@@ -160,7 +160,7 @@ In exchange for the flexibility, savings on Convertible RIs are (around 9%) less
 
 ### Scheduled RIs
 
-![Scheduled RI Representation](/assets/images/20190312/conv-bus.jpeg)
+![Scheduled RI Representation](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/20190312/conv-bus.jpeg)
 
 Scheduled RIs are the least commonly used reservations. They let you reserve capacity for a specified time interval on a daily, weekly or monthly schedule. Reservations also come with a capacity reservation. Scheduled RIs are only available in limited regions (N. Virginia, Oregon and Ireland) and instance types (C3, C4, M4, and R3). Unlike regular RIs, scheduled RIs are special instance types that EC2 set asides. That means you can only purchase scheduled RIs of a certain schedule if EC2 happens to have it available. After purchase, the discounts **do not** apply to existing instances but rather, only to the purchased scheduled instances which will need to be manually started during the scheduled window. EC2 will also automatically terminate these instances 3 minutes before your schedule expires.
 
@@ -174,7 +174,7 @@ As it stands today, it wouldn't surprise me if this class of RIs takes the same 
 
 RIs, like everything in AWS, have gained many new features since they were first announced. There are now a multitude of ways in which RI discounts can be applied.
 
-![EC2 Reserved Instance Evolution](/assets/images/20190312/ri_evolution.jpg)
+![EC2 Reserved Instance Evolution](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/20190312/ri_evolution.jpg)
 
 ## Instance Size Flexibility
 
@@ -213,7 +213,7 @@ Some other properties of RIs that didn't fit in any of the above sections.
 
 ## Marketplace
 
-![EC2 RI Marketplace Representation](/assets/images/20190312/conv-market.jpeg)
+![EC2 RI Marketplace Representation](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/20190312/conv-market.jpeg)
 
 While purchasing a standard RI locks you into a particular instance family and term, all is not lost if you decide to change. This is because you can still sell the remainder of your reservation in the RI marketplace. You must have owned your RI for longer than 30 days and register as a seller in the reserved instance marketplace before selling.
 

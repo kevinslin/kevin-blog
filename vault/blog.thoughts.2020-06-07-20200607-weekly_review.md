@@ -17,7 +17,7 @@ excerpt: 'George Floyd, Antifragile Democracy, and Chekhov''s Gun'
 classes: wide
 ---
 
-![](/assets/images/conv-ilana-20200607.png)
+![](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/conv-ilana-20200607.png)
 
  Black lives matter. This has been an incredibly maddening, heartbreaking, and sad week in American history. It feels like we are living in a twisted groundhogs day where the same injustices keep happening. While there's nothing I can say that hasn't been said already, I want to take a public stand on the issue and share my thoughts on how this came to be. 
 

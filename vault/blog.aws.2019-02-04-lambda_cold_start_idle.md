@@ -21,7 +21,7 @@ excerpt: >-
 layout: single
 ---
 
-!["Warming from a cold start"](/assets/images/20190204-header.jpg)
+!["Warming from a cold start"](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/20190204-header.jpg)
 
 ## History of Compute
 In the not so distant past, businesses that wanted to build internet services needed to provision their own hardware. That meant buying a rack and a bunch of servers and stashing them in a cool part of the building and hope that no one would trip over the wires.
@@ -60,11 +60,11 @@ The following test was conducted in us-west-2 at 2019-01-29
 
 And now for the results. Drum roll... 🥁🥁🥁
 
-!["Lambda us-west-2 Idle Timeout before cold start"](/assets/images/20190204-us_west_2_lambda_upper.png)
+!["Lambda us-west-2 Idle Timeout before cold start"](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/20190204-us_west_2_lambda_upper.png)
 
 So this turned out not be the most exciting graph in the world and also different from what I was expecting. 26min was not just the max idle timeout but the idle timeout we got in every execution of Lambda across all memory sizes.
 
-!["Lambda us-west-2 Idle Timeout Description"](/assets/images/20190204-us_west_2_lambda_desc.jpg)
+!["Lambda us-west-2 Idle Timeout Description"](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/20190204-us_west_2_lambda_desc.jpg)
 
 To read the above table, know that the first column is the Lambda memory size and the other columns show the statistical properties of the idle timeout in minutes.
 
@@ -77,11 +77,11 @@ The following test was conducted in us-east-1 at 2019-02-01
 
 ## Results (us-east-1)
 
-!["Lambda us-east-1 Idle Timeout before cold start"](/assets/images/20190204-us_east_1_lambda_upper.png)
+!["Lambda us-east-1 Idle Timeout before cold start"](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/20190204-us_east_1_lambda_upper.png)
 
 So this is a more interesting graph. Note that there is a general trend of the idle timeout decreasing with higher memory allocations.
 
-!["Lambda us-east-1 Idle Timeout Description"](/assets/images/20190204-us_east_1_lambda_desc.jpg)
+!["Lambda us-east-1 Idle Timeout Description"](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/20190204-us_east_1_lambda_desc.jpg)
 
 Some immediate observations:
 - 2624MB lambda shows the same behavior as us-west-2 lambda, having a consistent idle timeout of 26min
@@ -91,7 +91,7 @@ Some immediate observations:
 
 Now that we know what the max idle timeout is, what about idle timeouts less than that? That is to say, before we hit the upper bound in idle timeout, what were the other idle timeout's that Lambda hit along the way?
 
-!["Lambda us-east-1 Idle Timeout Before Hitting Uppper Bound"](/assets/images/20190204-us_east_1_lambda_facet.png)
+!["Lambda us-east-1 Idle Timeout Before Hitting Uppper Bound"](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/20190204-us_east_1_lambda_facet.png)
 
 There's a lot going on here but some observations:
 - there is much less variance among bigger Lambdas - after 1792MB, most of the idling is done at the max idle timeout (which ranges from 26-54min)

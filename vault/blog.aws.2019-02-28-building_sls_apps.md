@@ -21,7 +21,7 @@ excerpt: >-
 layout: single
 ---
 
-!["Serverless Lambda"](/assets/images/20190228-racecar.jpg)
+!["Serverless Lambda"](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/20190228-racecar.jpg)
 
 ## Abstract
 Slides to my talk on scaling serverless applications on AWS. It answers age old questions such as:

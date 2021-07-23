@@ -19,7 +19,7 @@ excerpt: >-
 layout: single
 ---
 
-![AWS Cloud Development Kit Guide Representation](/assets/images/20190808-cdk_guide-conv.jpg)
+![AWS Cloud Development Kit Guide Representation](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/20190808-cdk_guide-conv.jpg)
 
 Over the past year, I've been following the development of the [AWS CloudDevelopment Kit](https://github.com/aws/aws-cdk) (CDK) - a framework built on top of CloudFormation that makes it delightful for users to manage AWS [Infrastructure as Code](https://en.wikipedia.org/wiki/Infrastructure_as_code) (IaC).
 

@@ -15,7 +15,7 @@ toc_sticky: true
 excerpt: Building a better tool for thought
 ---
 
-![](/assets/images/2021-03-16-08-52-27.png)
+![](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/2021-03-16-08-52-27.png)
 
 I started [Dendron](https://dendron.so/) because I was frustrated with the lack of good note-taking tools while working as a developer at AWS. 
 
