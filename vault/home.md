@@ -2,22 +2,29 @@
 id: 8cafc40b-9bb7-4e1d-b437-3701bedba9c6
 title: Hi
 desc: ''
-updated: 1609467004345
+updated: 1627082060864
 created: 1597551434931
 ---
 
 ## Welcome to Kevin's [Digital Garden](https://joelhooks.com/digital-garden) 🌱
 
-I'm Kevin. I'm a software engineer that left Amazon over a year ago to build a [better tool for thought](https://numinous.productions/ttft/). It launched in preview July of 2020 and if everything goes right, [it will be](https://dendron.so/) what I will be my answer to "what are you working on" for the forseeable future.
+I'm Kevin. I'm a software engineer that left Amazon over a year ago to build a [better tool for thought](https://numinous.productions/ttft/). [Dendron](https://dendron.so/) launched in preview July of 2020 and if everything goes right, [it will be](https://dendron.so/) what I will be my answer to "what are you working on" for the forseeable future.
 
 When not at the computer, I run long distances, do bad improv, and occasional produce [podcasts](https://folkstories.org/).
 
 You can find and contact me in the following places (sorted by frequency of use):
 
-- Email: kevin(at)thence.io
+- Email: kevin(at)dendron.io
 - Twitter: [@kevins8](https://twitter.com/kevins8)
 - Github: [@kevins8](https://github.com/kevinslin)
 - LinkedIn: [@kevinslin-thence](https://www.linkedin.com/in/kevinslin-thence)
+
+## Working in the Open
+
+Except where otherwise noted, content on this site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
+
+You can run this blog locally by following the instructions here.
+
 
 ### Staying Updated
 
