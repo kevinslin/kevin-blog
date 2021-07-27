@@ -2,7 +2,7 @@
 id: 7f197479-279e-4b1e-9edd-21bf2da423b0
 title: Tools
 desc: ''
-updated: 1627079245422
+updated: 1627416495396
 created: 1616285026176
 ---
 
@@ -32,6 +32,32 @@ A collection of some tools I use
     - vscodium
         - two windows, one focused on <https://dendron.so> documentation (use as reference as well as to update) and another for an alternate workspace i'm working on (eg. <https://aws.dendron.so>)
 - the idea here is that I can access any note in any workspace using at most, two keyboard shortcuts.
+
+### Workspace and Vaults
+- file structure
+```
+.
+├── workspace
+│   ├── kevin-personal
+│   └── kevin-work
+└── vaults
+    ├── kevin-public
+    ├── kevin-blog
+    ├── kevin-private
+    ├── people
+    ├── org-private
+    ├── org-admin
+    └── ...
+
+```
+- sample dendron.yml from `kevin-workspace`
+```
+vaults:
+  - fsPath: ../../vaults/kevin-public
+  - fsPath: ../../vaults/kevin-private
+  - fsPath: ...
+
+```
 
 
 ## Windows
