@@ -2,7 +2,7 @@
 id: 7f197479-279e-4b1e-9edd-21bf2da423b0
 title: Tools
 desc: ''
-updated: 1627416495396
+updated: 1627439206836
 created: 1616285026176
 ---
 
@@ -57,6 +57,15 @@ vaults:
   - fsPath: ../../vaults/kevin-private
   - fsPath: ...
 
+```
+- sample `dendron.code-workspace
+```json
+        {
+            "path": "../../vaults/kevin-public"
+        },
+        {
+            "path": "../../vaults/kevin-private"
+        },
 ```
 
 
