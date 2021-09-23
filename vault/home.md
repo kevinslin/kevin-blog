@@ -2,7 +2,7 @@
 id: 8cafc40b-9bb7-4e1d-b437-3701bedba9c6
 title: Hi
 desc: ''
-updated: 1627082060864
+updated: 1632437482201
 created: 1597551434931
 ---
 
@@ -15,16 +15,15 @@ When not at the computer, I run long distances, do bad improv, and occasional pr
 You can find and contact me in the following places (sorted by frequency of use):
 
 - Email: kevin(at)dendron.io
-- Twitter: [@kevins8](https://twitter.com/kevins8)
-- Github: [@kevins8](https://github.com/kevinslin)
-- LinkedIn: [@kevinslin-thence](https://www.linkedin.com/in/kevinslin-thence)
+- Twitter: [`@kevins8`](https://twitter.com/kevins8)
+- Github: [`@kevins8`](https://github.com/kevinslin)
+- LinkedIn: [`@kevinslin-thence`](https://www.linkedin.com/in/kevinslin-thence)
 
 ## Working in the Open
 
 Except where otherwise noted, content on this site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
 
-You can run this blog locally by following the instructions here.
-
+Code for this blog is available on [github](https://github.com/kevinslin/kevin-garden).
 
 ### Staying Updated
 
