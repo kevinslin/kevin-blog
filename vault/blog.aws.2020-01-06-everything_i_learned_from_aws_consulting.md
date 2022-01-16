@@ -2,7 +2,7 @@
 id: 07112ed8-c156-4c5c-911d-532845350777
 title: Everything I Learned from One Year of AWS Consulting
 desc: ''
-updated: 1627079145995
+updated: 1641705997317
 created: 1596416622319
 date: '2020-01-06'
 categories: aws
@@ -234,14 +234,3 @@ Looking back, I’ve worked harder and longer in 2019 than I’ve ever done in m
 [8217-0003]: http://www.amazon.com/dp/product/0787976393/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=bretttercom-20
 [8217-0004]: https://amzn.to/2QsQAym
 [8217-0005]: https://twitter.com/QuinnyPig
-
-<!-- Report:
-(0:40:29): [Patrick McKenzie](+s +kalzumeus) => https://www.kalzumeus.com/
-(0:74:26): [Eric Dietrich](!s +deadtech) => https://daedtech.com/
-(0:120:26): [Getting Naked](!a) => http://www.amazon.com/dp/product/0787976393/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=bretttercom-20
-(0:151:27): [The Blue Ocean](!a) => http://www.amazon.com/dp/product/B000002LHU/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=bretttercom-20
-(0:212:24): [Corey Quinn](!s +duckbill) => https://www.techrepublic.com/article/aws-billing-is-broken-and-kubernetes-wont-last-says-irreverent-economist-corey-quinn/
-(): Processed: 5 links, 0 errors.
--->
-
-
