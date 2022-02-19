@@ -2,7 +2,7 @@
 id: hzKV8aIwXqKlw7bWaO0Cg
 title: Dendron
 desc: ''
-updated: 1644791791193
+updated: 1645229047505
 created: 1644791607937
 ---
 
@@ -18,3 +18,5 @@ This describes my personal Dendron setup. I have the following vaults:
 ## On Projects
 
 Every project that I create, I create a corresponding entry in my personal [[Project|proj]] hierarchy 
+
+## On Work
