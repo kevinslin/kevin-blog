@@ -2,7 +2,7 @@
 id: 16nfv4m800qkygz7h5mkyeu
 title: Schema
 desc: ''
-updated: 1645982452145
+updated: 1645992173021
 created: 1645933135937
 ---
 
@@ -24,6 +24,4 @@ Things that I'm maintaining over time
 
 Things that I reference 
 
-![[r]]
-- [[books]]
-- [[podcasts]]
+![[dendron://kevin-public/r]]
