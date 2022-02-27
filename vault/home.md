@@ -1,20 +1,38 @@
 ---
 id: 8cafc40b-9bb7-4e1d-b437-3701bedba9c6
-title: Hi
+title: Hi 
 desc: ''
-updated: 1632437482201
+updated: 1645982057193
 created: 1597551434931
 ---
 
-## Welcome to Kevin's [Digital Garden](https://joelhooks.com/digital-garden) 🌱
+## Welcome to my [Digital Garden](https://joelhooks.com/digital-garden) 🌱
 
-I'm Kevin. I'm a software engineer that left Amazon over a year ago to build a [better tool for thought](https://numinous.productions/ttft/). [Dendron](https://dendron.so/) launched in preview July of 2020 and if everything goes right, [it will be](https://dendron.so/) what I will be my answer to "what are you working on" for the forseeable future.
+I'm **Kevin**. I'm a software engineer that's been obsessed with PKM for the last decade - mostly for personal reasons as I needed a tool that could help me make use of my own corpus of **+30K notes**. 
 
-When not at the computer, I run long distances, do bad improv, and occasional produce [podcasts](https://folkstories.org/).
+After a decade of experimenting, I found that existing workflows and tools  (sometimes) made it easy to create notes but past the 1K note threshold, made it [[impossible to find again|blog.pkm.2020-03-30-its_not_you_its_your_knowledge_base]].
+
+This led me to create my own workflow - [[A Hierarchy First Approach to Note Taking|blog.pkm.2020-08-24-a-hierarchy-first-approach-to-note-taking]]. This workflow, combined with custom tooling I created to facilitate it, **completely solved information overload** for myself, allowing me to easily create, organize and reference my own knowledge.
+
+In 2019, I left my job at Amazon to focus on distilling everything I had learned about PKM to build [Dendron](https://dendron.so/) - a [tool for thought](https://numinous.productions/ttft/) that helps **humans** manage **knowledge at scale**.
+
+![[home._ref.dendron-missions]]
+
+## Navigating the Garden
+
+![[home.schema]]
+
+## About the Garden
+
+Dendron is not just for storing knowledge but also for sharing it. This is why [publishing](https://wiki.dendron.so/notes/4ushYTDoX0TYQ1FDtGQSg.html) is a first class feature in Dendron (this site that you're reading is published using Dendron). 
+
+Dendron makes it easy to publish any subset of your notes using a custom open source nextjs template that compiles everything down to static HTML which you can host anywhere. 
+
+## Contact
 
 You can find and contact me in the following places (sorted by frequency of use):
 
-- Email: kevin(at)dendron.io
+- Email: kevin(at)dendron.so
 - Twitter: [`@kevins8`](https://twitter.com/kevins8)
 - Github: [`@kevins8`](https://github.com/kevinslin)
 - LinkedIn: [`@kevinslin-thence`](https://www.linkedin.com/in/kevinslin-thence)
