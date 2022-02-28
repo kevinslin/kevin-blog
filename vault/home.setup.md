@@ -2,8 +2,9 @@
 id: T3QeQ7X387I23wRc
 title: Setup
 desc: ''
-updated: 1627082650820
+updated: 1646011276306
 created: 1627082068160
+nav_exclude: true
 ---
 
 ## Summary

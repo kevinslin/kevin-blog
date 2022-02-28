@@ -2,8 +2,9 @@
 id: 16nfv4m800qkygz7h5mkyeu
 title: Schema
 desc: ''
-updated: 1645992173021
+updated: 1646013402622
 created: 1645933135937
+nav_exclude: true
 ---
 
 Kevin's Digital Garden is loosely structured around the [PARA](https://fortelabs.co/blog/para/) method which organizes all information along a few top level categories. 
@@ -16,8 +17,8 @@ Things I'm working on
 
 Things that I'm maintaining over time
 
-![[daily]]
 ![[blog]]
+![[daily]]
 ![[til]]
 
 ## Resources
