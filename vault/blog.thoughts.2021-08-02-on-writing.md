@@ -4,15 +4,16 @@ title: An Iterative Approach to Writing
 desc: ''
 updated: 1627913276088
 created: 1627912997544
-date: '2021-08-02'
-category: pkm
 tags:
   - pkm
-excerpt: |
-  The waterboarding of the ego. The crushing of the soul. The realization that I can't spell. What I mean when I talk about writing.
 image: >-
   https://kevinslin-images.s3.us-west-2.amazonaws.com/images/pexels-jeshootscom-714701.jpg
-author: "Kevin S Lin"
+date: '2021-08-02'
+category: pkm
+excerpt: >
+  The waterboarding of the ego. The crushing of the soul. The realization that I
+  can't spell. What I mean when I talk about writing.
+author: Kevin S Lin
 ---
 
 ![time spent writing](https://kevinslin-images.s3.us-west-2.amazonaws.com/images/pexels-jeshootscom-714701.jpg)
