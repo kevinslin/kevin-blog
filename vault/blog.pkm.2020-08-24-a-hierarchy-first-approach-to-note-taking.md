@@ -1,8 +1,8 @@
 ---
 id: 3dd58f62-fee5-4f93-b9f1-b0f0f59a9b64
 title: A Hierarchy First Approach to Note Taking
-desc: ''
-updated: 1614296551751
+desc: 'Using hierarchy to manage information overload'
+updated: 1651941501704
 created: 1598210596673
 stub: false
 layout: single 
