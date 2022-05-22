@@ -15,7 +15,7 @@ author: Kevin S Lin
 
 I divide suffering into the following categories:
 
-1. Suffering for a greater good (aka [[type 2 fun|dendron://kevin-private/me.mm.types-of-fun]]) 
+1. Suffering for a greater good (aka [[type 2 fun|dendron://kevin-public/me.mm.types-of-fun]]) 
 1. Suffering for (seemingly) no reason at all
 
 Suffering for the greater good is the hero's journey. It is running a marathon. It is parenthood. It is the pinnacle of [[Maslows Hierarchy|dendron://kevin-public/me.mm.maslows-hierarchy]]. 
