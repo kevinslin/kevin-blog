@@ -2,7 +2,7 @@
 id: mf93igpl77p4jkzdnvp34l4
 title: On Suffering
 desc: ''
-updated: 1653238728892
+updated: 1653241622573
 created: 1653236586953
 tags:
   - area.psych
@@ -39,4 +39,4 @@ For the latter, the following are some strategies that have helped me cope:
 
 ## Lookup
 - [[Systems Vs Goals|dendron://kevin-public/me.mm.systems-vs-goals]]
-- [[res.books.mans_search_for_meaning]]
+- [[Man's Search For Meaning|dendron://kevin-public/res.books.mans-search-for-meaning]]
