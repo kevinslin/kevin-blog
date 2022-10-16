@@ -52,6 +52,7 @@ Most of the articles this week are on the topic of structured knowledge manageme
     - Post-mortem of the stack overflow documentation effort. Was following it closely when it launched but like a lot of people mentioned in the retrospective, ultimately didn't use it. Existing documentation was "good enough" and when it wasn't, regular Stack Overflow worked. This one hit close to home because I did a similar post-mortem for the [initial preview of Dendron](https://aws.dendron.so/). At that time, it was focused on consolidating all AWS documentation in one place with a small consistent hierarchy. It suffered from much of the same problems.
 
 # Systems
+<!-- [[dendron://notes/awsless]] -->
 - Using `awless` as a replacement for [aws-cli](https://aws.amazon.com/cli/):
   - Notes
     - I can never do anything on the AWS CLI without looking it up on the [AWS CLI Reference page](https://docs.aws.amazon.com/cli/latest/reference/index.html#cli-aws). `awless` makes it more manageable by reducing most commonly used commands to a small hierarchical set with sane defaults.
