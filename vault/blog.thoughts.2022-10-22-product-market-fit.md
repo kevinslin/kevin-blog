@@ -1,8 +1,8 @@
 ---
 id: htchyy536bb169mzu47ksb6
-title: 2022 10 22 Product Market Fit
+title: Product Market Fit
 desc: ''
-updated: 1666549085838
+updated: 1667087240160
 created: 1666494967476
 tags:
   - area.business
